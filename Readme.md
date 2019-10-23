@@ -18,12 +18,17 @@ console.log(bnNum(4587, true))
 // => ৪,৫৮৭
 ```
 
-**Parameters and returns**
+**Parameters**
+
+| Name  | Data Type | Description                                   |
+| ----- | --------- | --------------------------------------------- |
+| num   | `int`     | Number to convert in Bengali                  |
+| komma | `boolean` | (**Default:**`true`) Komma notation on number |
+
+**Returns**
 
 ```
-   @param  {int}                            num Number to convert in Bengali
-   @param  {boolean | false} [komma=false]  komma notation on number
-   @return {string}                         Translated bangla number
+@return {string} Translated bangla number
 ```
 
 ### Attension
