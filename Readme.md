@@ -1,4 +1,4 @@
-Translate number to `Bengali`
+## Translate number to `Bengali`
 
 **Installation**
 
@@ -10,9 +10,18 @@ npm install bnnum
 
 ```js
 import bnNum from 'bnnum'
+
 console.log(bnNum(4587))
 // => ৪৫৮৭
 
 console.log(bnNum(4587, true))
 // => ৪,৫৮৭
+```
+
+**Parameters and returns**
+
+```
+   @param {int} num Number to convert in Bengali
+   @param {boolean | false} [komma=false] komma notation on number
+   @return {string} Translated bangla number
 ```
