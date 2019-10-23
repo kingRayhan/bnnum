@@ -1,0 +1,23 @@
+{
+  "name": "bnnum",
+  "version": "1.0.1",
+  "description": "Number conversion package from english to Bengali",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "babel src -d dist",
+    "dev": "babel src -d dist --watch",
+    "test": "babel-node test/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "dependencies": {
+    "bnnum": "^1.0.0"
+  }
+}
