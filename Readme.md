@@ -25,3 +25,7 @@ console.log(bnNum(4587, true))
    @param  {boolean | false} [komma=false]  komma notation on number
    @return {string}                         Translated bangla number
 ```
+
+### Attension
+
+This package will not works in backend
