@@ -31,6 +31,6 @@ console.log(bnNum(4587, true))
 @return {string} Translated bangla number
 ```
 
-### Attension
+### Known Issue
 
 This package will not works in backend
