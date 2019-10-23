@@ -1,23 +1,39 @@
 {
-  "name": "bnnum",
-  "version": "1.0.1",
-  "description": "Number conversion package from english to Bengali",
-  "main": "dist/index.js",
-  "directories": {
-    "test": "test"
-  },
-  "scripts": {
-    "build": "babel src -d dist",
-    "dev": "babel src -d dist --watch",
-    "test": "babel-node test/index"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0"
-  },
-  "dependencies": {
-    "bnnum": "^1.0.0"
-  }
+    "name": "bnnum",
+    "version": "1.0.2",
+    "description": "Number conversion package from english to Bengali",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "babel src -d dist",
+        "dev": "babel src -d dist --watch",
+        "test": "babel-node test/index"
+    },
+    "author": {
+        "name": "KingRayhan",
+        "url": "http://rayhan.info",
+        "email": "md.raihan095@northsouth.edu"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0"
+    },
+    "dependencies": {
+        "bnnum": "^1.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kingRayhan/bnnum.git"
+    },
+    "keywords": [
+        "Bengali",
+        "translate",
+        "bangla",
+        "number-to-bengali",
+        "number-to-bangla"
+    ],
+    "bugs": {
+        "url": "https://github.com/kingRayhan/bnnum/issues"
+    },
+    "homepage": "https://github.com/kingRayhan/bnnum#readme"
 }
