@@ -28,5 +28,4 @@ const bnNum = (num, komma = false) => {
         .replace('9', '৯')
         .replace('0', '০')
 }
-
 export default bnNum

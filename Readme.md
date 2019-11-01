@@ -23,7 +23,7 @@ console.log(bnNum(4587, true))
 | Name  | Data Type | Description                                   |
 | ----- | --------- | --------------------------------------------- |
 | num   | `int`     | Number to convert in Bengali                  |
-| komma | `boolean` | (**Default:**`true`) Komma notation on number |
+| komma | `boolean` | (**Default:**`false`) Komma notation on number |
 
 **Returns**
 

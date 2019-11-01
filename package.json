@@ -1,6 +1,6 @@
 {
     "name": "bnnum",
-    "version": "1.0.2",
+    "version": "1.0.4",
     "description": "Number conversion package from english to Bengali",
     "main": "dist/index.js",
     "scripts": {
@@ -16,10 +16,8 @@
     "license": "MIT",
     "devDependencies": {
         "babel-cli": "^6.26.0",
-        "babel-preset-env": "^1.7.0"
-    },
-    "dependencies": {
-        "bnnum": "^1.0.0"
+        "babel-preset-env": "^1.7.0",
+        "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2"
     },
     "repository": {
         "type": "git",
