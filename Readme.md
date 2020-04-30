@@ -20,9 +20,9 @@ console.log(bnNum(4587, true))
 
 **Parameters**
 
-| Name  | Data Type | Description                                   |
-| ----- | --------- | --------------------------------------------- |
-| num   | `int`     | Number to convert in Bengali                  |
+| Name  | Data Type | Description                                    |
+| ----- | --------- | ---------------------------------------------- |
+| num   | `int`     | Number to convert in Bengali                   |
 | komma | `boolean` | (**Default:**`false`) Komma notation on number |
 
 **Returns**
@@ -34,3 +34,7 @@ console.log(bnNum(4587, true))
 ### Known Issue
 
 This package will not works in backend
+
+## Issue fixer credits
+
+Solved issue #1 by [jobayerarman](https://github.com/jobayerarman)

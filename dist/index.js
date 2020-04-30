@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+	value: true
 });
 /**
  * The function for translating number to Bengali
@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", {
  * @param {boolean | false} [komma=false] komma notation on number
  * @return {string} Translated bangla number
  *
- * @author King Rayhan <md.raihan095@northsouth.edu>
+ * @author King Rayhan <me@rayhan.info>
  *  @example
  *      import bnNum from "bnnum"
  *
@@ -21,8 +21,25 @@ Object.defineProperty(exports, "__esModule", {
  *
  */
 var bnNum = function bnNum(num) {
-  var komma = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+	var komma = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
 
-  return ('' + num.toLocaleString('fullwide', { useGrouping: komma })).replace('1', '১').replace('2', '২').replace('3', '৩').replace('4', '৪').replace('5', '৫').replace('6', '৬').replace('7', '৭').replace('8', '৮').replace('9', '৯').replace('0', '০');
+	var banglaNumber = {
+		'0': '০',
+		'1': '১',
+		'2': '২',
+		'3': '৩',
+		'4': '৪',
+		'5': '৫',
+		'6': '৬',
+		'7': '৭',
+		'8': '৮',
+		'9': '৯'
+	};
+	var str = '' + num.toLocaleString('bn-BD', { useGrouping: komma });
+
+	for (var x in banglaNumber) {
+		str = str.replace(new RegExp(x, 'g'), banglaNumber[x]);
+	}
+	return str;
 };
 exports.default = bnNum;
