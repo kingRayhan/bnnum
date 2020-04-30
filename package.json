@@ -6,12 +6,13 @@
 	"scripts": {
 		"build": "babel src -d dist",
 		"dev": "babel src -d dist --watch",
-		"test": "babel-node test/index"
+		"test": "babel-node test/index",
+		"prepublish": "npm run build"
 	},
 	"author": {
 		"name": "KingRayhan",
 		"url": "https://rayhan.info",
-		"email": "md.raihan095@northsouth.edu"
+		"email": "me@rayhan.info"
 	},
 	"license": "MIT",
 	"devDependencies": {
